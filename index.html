@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About js </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Matrix-Master</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="dawit">
+    <h1>Assignment on java script<br>By Dawit Abrha</h1>
+  </div>
+    <p class="text-center fs-3 text-bg-primary p-3"> let's click on the bellow button and you will see what will happening</p>
+    <button  class="rounded-pill" id="myButton" class="d-flex flex-row mb-3">dawit</button>
+    <div id="myDiv">This is my name</div>
+
+<div id="todo-list">
+    <ul id="list">
+      <li>Javascript</li>
+      <li>js algorithm</li>
+      <li>advanced Javascript</li>
+    </ul>
+    <input type="text" id="new-item" placeholder="Enter new item">
+    <button id="add-btn">Add</button>
+  </div>
+<div id="image-container">
+    <img id="my-image" src="https://www.adobe.com/express/feature/image/remove-background/png/media_16ad2258cac6171d66942b13b8cd4839f0b6be6f3.png?width=750&format=png&optimize=medium" alt="end">
+    <button id="change-btn">click to see more dogs</button>
+  </div>
+  <section class="contact" id="contact">
+    <h1 class="heading ms-center"><span>Contact</span> me</h1>
+    <div class="row">
+        <form action="">
+            <input type="text" placeholder="Enter Your Name" class="box" id="contact-name" onkeyup="validateName()">
+            <span id="name-Error"></span>
+            <input type="Email" placeholder="Email" class="box" id="contact-Email" onkeyup="validateEmail()">
+            <span id="email-Error"></span>
+            <input type="Phone Number" placeholder="number" class="box" id="contact-phone" onkeyup="validatePhone()">
+            <span id="Phone-Error"></span>
+            <textarea name="" class="box" placeholder="message" id="contact-message" onkeyup="validateMessage()"></textarea>
+            <span id="message-Error"></span>
+                <input type="submit" value="send message" class="btn" onclick="return validateForm()">
+            <span id="submit-Error"></span>
+        </form>
+        <div class="image">
+          <img src="https://github.com/dawit-abrha/dev/blob/main/9A389F4C-6B88-4211-A2A4-086B5AE6B13E.jpeg?raw=true" alt="dawit">
+        </div>
+    </div>
+</section>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>

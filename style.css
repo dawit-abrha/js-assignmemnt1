@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#dawit{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: #458562;
+}
+#dawit h1{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: blue;
+}
+#myButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    color: blue;
+    background-color: aqua;
+    margin-top: 20px;
+}
+#myDiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+#todo-list{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+   
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#list li{
+    list-style: none;
+    font-size: 20px;
+}
+#list input{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#list button{
+    display: block;
+}
+#image-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    width: 80%;
+    height: 250px;
+    margin-bottom: 30px;
+    margin: auto;
+   
+
+}
+#image-container img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#change-btn{
+    width: 200px;
+    height: 50px;
+   margin-top: 20px;
+   color: #458562;
+   background-color: blue;
+   margin-top: -20px;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    background: #aba1b9;
+  
+}
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: .5ren 1.5rem rgba(0,0,0,.1);
+    border: 1rem solid rgba(0,0,0,.1);
+    background: hsl(80, 70%, 46%);
+    border-radius: .5rem;
+}
+.contact .row .image{
+    flex: 1 1 40rem;
+    background: #1da295;
+}
+.contact .row .image img{
+   width: 100%;
+ 
+}
+.contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #cab812;
+    text-transform: none;
+    border: .1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+}
+.contact .row form .box:focus{
+    border-color: hsl(275, 86%, 36%);
+}
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+.contact .row form span{
+    position: relative;
+    font-size: 12px;
+    color:red;
+    text-align: right;
+    
+}
+.contact .row form span i{
+    color: green;
+    width: 100%;
+}   
+
